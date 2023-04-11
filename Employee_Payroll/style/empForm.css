@@ -244,7 +244,6 @@ select {
 
 .submit-button,
 .reset-button {
-  left: 546px;
   width: 180px;
   height: 53px;
 /* UI Properties */
@@ -280,5 +279,6 @@ select {
   width: 540px;
   text-align: right;
   margin-left: 180px;
+  justify-content: space-between;
   
 }

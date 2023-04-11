@@ -85,7 +85,7 @@ body {
 }
 
 .search-button {
-    margin-top: 90px;
+    margin-top: 80px;
     margin-left: 780px;
     width: 77px;
     height: 55px;
@@ -95,13 +95,15 @@ body {
     border-radius: 28px;
     opacity: 1;
     cursor: pointer; 
+    outline: none;
+    border: none;
 }
 
 .add-button {
-    margin-top: 90px;
-    margin-left: 10px;
+    margin-top: 80px;
+    margin-left: 20px;
     height: 55px;
-    width: 215px;
+    width: 200px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -113,5 +115,20 @@ body {
     color: #ffffff;
     font: normal normal normal 22px/29px Roboto;
     cursor: pointer;
+}
+
+img[for="serch-img"] {
+  width: 27px;
+  height: 27px;
+  transform: matrix(0.99, 0.12, -0.12, 0.99, 0, 0);
+  /* UI Properties */
+  opacity: 1;
+}
+
+img[for="add-img"] {
+  width: 28px;
+  height: 28px;
+/* UI Properties */
+  opacity: 1;
 }
   
