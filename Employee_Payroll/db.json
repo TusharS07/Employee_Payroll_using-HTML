@@ -9,6 +9,16 @@
       "startDate": "08 Nov 2021",
       "notes": "yrjhdgf",
       "id": 1
+    },
+    {
+      "name": "Tushar Salunkhe",
+      "profileUrl": "../assets/Profile-Pic-4.png",
+      "gender": "Male",
+      "department": "Engineer Others",
+      "salary": "50000",
+      "startDate": "12 Nov 2022",
+      "notes": "gbdcxfvdsac",
+      "id": 2
     }
   ]
 }
