@@ -1,0 +1,14 @@
+{
+  "employees": [
+    {
+      "name": "Ashwini Patil",
+      "profileUrl": "../assets/Profile-Pic-1.png",
+      "gender": "Female",
+      "department": "Finance Engineer",
+      "salary": "50000",
+      "startDate": "08 Nov 2021",
+      "notes": "yrjhdgf",
+      "id": 1
+    }
+  ]
+}
