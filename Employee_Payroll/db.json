@@ -5,12 +5,10 @@
       "profileUrl": "../assets/Profile-Pic-3.png",
       "gender": "Female",
       "department": [
-        "Finance",
-        "Engineer",
-        "Others"
+        "Engineer"
       ],
-      "salary": "50000",
-      "startDate": "15 Aug 2016",
+      "salary": "50,000",
+      "startDate": "15 Aug 2018",
       "notes": "Computer Engineer",
       "id": 1
     },
@@ -20,26 +18,26 @@
       "gender": "Male",
       "department": [
         "Finance",
-        "Engineer"
+        "Engineer",
+        "Others"
       ],
-      "salary": "50000",
-      "startDate": "16 May 2022",
+      "salary": "50,000",
+      "startDate": "14 Aug 2018",
       "notes": "Full Stack Dev",
       "id": 2
     },
     {
-      "name": "rsdknml,",
-      "profileUrl": "../assets/Profile-Pic-3.png",
-      "gender": "Female",
+      "name": "Yash Bhosale",
+      "profileUrl": "../assets/Profile-Pic-2.png",
+      "gender": "Male",
       "department": [
         "HR",
         "Sales",
-        "Finance",
-        "Engineer"
+        "Finance"
       ],
-      "salary": "35000",
-      "startDate": "13 Aug 2018",
-      "notes": "sctfgvyb,;",
+      "salary": "25,000",
+      "startDate": "19 Sep 2018",
+      "notes": "nrfgsdfgbf",
       "id": 3
     }
   ]
