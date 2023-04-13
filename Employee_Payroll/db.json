@@ -2,23 +2,45 @@
   "employees": [
     {
       "name": "Ashwini Patil",
-      "profileUrl": "../assets/Profile-Pic-1.png",
+      "profileUrl": "../assets/Profile-Pic-3.png",
       "gender": "Female",
-      "department": "Finance Engineer",
+      "department": [
+        "Finance",
+        "Engineer",
+        "Others"
+      ],
       "salary": "50000",
-      "startDate": "08 Nov 2021",
-      "notes": "yrjhdgf",
+      "startDate": "15 Aug 2016",
+      "notes": "Computer Engineer",
       "id": 1
     },
     {
       "name": "Tushar Salunkhe",
       "profileUrl": "../assets/Profile-Pic-4.png",
       "gender": "Male",
-      "department": "Engineer Others",
+      "department": [
+        "Finance",
+        "Engineer"
+      ],
       "salary": "50000",
-      "startDate": "12 Nov 2022",
-      "notes": "gbdcxfvdsac",
+      "startDate": "16 May 2022",
+      "notes": "Full Stack Dev",
       "id": 2
+    },
+    {
+      "name": "rsdknml,",
+      "profileUrl": "../assets/Profile-Pic-3.png",
+      "gender": "Female",
+      "department": [
+        "HR",
+        "Sales",
+        "Finance",
+        "Engineer"
+      ],
+      "salary": "35000",
+      "startDate": "13 Aug 2018",
+      "notes": "sctfgvyb,;",
+      "id": 3
     }
   ]
 }

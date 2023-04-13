@@ -4,6 +4,7 @@
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <link rel="stylesheet" href="../style/empTable.css">
+    <script src="../scripts/table.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,20 +26,77 @@
 
 
     <div class="main">
-        <div class="table-header-part">
-            <span class="table-header">Employee Details</span>
-            <button class="search-button">
-                <img src="../assets/search.svg" alt="search" for="serch-img" >
-            </button>
-            <button class="add-button">
-                <img src="../assets/add-24px.svg" alt="add employee" for="add-img">
-                Add User
-            </button>
+        <div class="table-header sub-main-content">
+            <div class="emp-details-text">
+                Employee Details
+            </div>
+            <div class="btn">
+                    <button class="search-button">
+                        <img src="../assets/search.svg" alt="search">
+                    </button>
+                    <button class="add-button" onclick="addUser()">
+                        <img src="../assets/add-24px.svg" alt="add employee" for="serch-img">
+                        Add User
+                    </button>
+            </div>
         </div>
+        <div class="table-main">
+            <table id="display" class="table">
+                <tr class="head">
+                    <th class="profileimgcol"></th>
+                    <th class="namecol">NAME</th>
+                    <th class="gendercol">GENDER</th>
+                    <th>DEPARTMENT</th>
+                    <th>SALARY</th>
+                    <th>START DATE</th>
+                    <th>ACTIONS</th>
+                </tr>
+                <div class="table-body">
+                    <tbody class="tblbody" id="empData">
+                        <!-- <tr class="body">
+                            <td class="profileimgcol"><img class="profile-image" src="../assets/Profile-Pic-2.png" alt="Pic1">
+                            </td>
+                            <td class="namecol">Tushar Salunkhe</td>
+                            <td class="gendercol">Male</td>
+                            <td>
+                                <div class="dept">
+                                    <span class="dept-name">Sales</span>
+                                    <span class="dept-name">HR</span>
+                                    <span class="dept-name">Finance</span>
+                                </div>
+                            </td>
+                            <td>₹50,000</td>
+                            <td>02 Mar 2021</td>
+                            <td class="action">
+                                <img src="../assets/delete-black-18dp.svg" alt="Delete">
+                                <img src="../assets/create-black-18dp.svg" alt="Edit">
+                            </td>
+                        </tr>
 
 
-        <div>
-            
+
+                        <tr class="body">
+                            <td class="profileimgcol"><img class="profile-image" src="../assets/Profile-Pic-2.png" alt="Pic1">
+                            </td>
+                            <td class="namecol">Tushar Salunkhe</td>
+                            <td class="gendercol">Male</td>
+                            <td>
+                                <div class="dept">
+                                    <span class="dept-name">Sales</span>
+                                    <span class="dept-name">HR</span>
+                                    <span class="dept-name">Finance</span>
+                                </div>
+                            </td>
+                            <td>₹50,000</td>
+                            <td>02 Mar 2021</td>
+                            <td class="action">
+                                <img src="../assets/delete-black-18dp.svg" alt="Delete">
+                                <img src="../assets/create-black-18dp.svg" alt="Edit">
+                            </td>
+                        </tr> -->
+                    </tbody>
+                </div>
+            </table>
         </div>
     </div>
 
