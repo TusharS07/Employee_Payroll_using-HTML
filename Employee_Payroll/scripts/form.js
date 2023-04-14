@@ -51,15 +51,15 @@ const addEmp = () => {
     success: function (data) {
       console.log("Data Added: ", data);
       alert("Employee Add successfully!");
-
-      setTimeout(() => {
-        window.location.href = "/pages/empTable.html";
-      }, 2000);
     },
     error: function () {
       alert("Error sending data!");
     }
   });
+  setTimeout(() => {
+    console.log("work");
+    window.location.href = "/pages/empTable.html";
+}, 1000);
 
 }
 

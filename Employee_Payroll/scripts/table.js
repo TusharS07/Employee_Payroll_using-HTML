@@ -35,7 +35,7 @@ function fetchAllData() {
 
                 tableData.append("<td>"+"₹ "+ value.salary + "</td>");
                 tableData.append("<td>" + value.startDate + "</td>");
-                tableData.append("<td class='action'><img src='../assets/delete-black-18dp.svg' alt='Delete' id='deletebtn' onClick='deleteEmp("+ value.id +")'><img src='../assets/create-black-18dp.svg' alt='Edit' id='editbtn'></td>");
+                tableData.append("<td class='action'><img src='../assets/delete-black-18dp.svg' alt='Delete' id='deletebtn' onClick='deleteEmp("+ value.id +")'><img src='../assets/create-black-18dp.svg' alt='Edit' id='editbtn' onClick='updateEmpData("+ value.id +")'></td>");
 
                 tblbody.append(tableData);
             });
@@ -63,7 +63,11 @@ function deleteEmp(id) {
         error: function() {
           alert("Error sending data!");
         }
-      });
-          
-    
+      });   
+}
+
+
+function updateEmpData(id){
+    localStorage.setItem('empId', id);
+    window.location.href="/pages/updateEmpData.html";
 }

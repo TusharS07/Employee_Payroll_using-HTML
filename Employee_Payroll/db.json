@@ -8,7 +8,7 @@
         "Engineer"
       ],
       "salary": "50,000",
-      "startDate": "15 Aug 2018",
+      "startDate": "15 Aug 2021",
       "notes": "Computer Engineer",
       "id": 1
     },
@@ -36,9 +36,34 @@
         "Finance"
       ],
       "salary": "25,000",
-      "startDate": "19 Sep 2018",
+      "startDate": "31 Sep 2018",
       "notes": "nrfgsdfgbf",
       "id": 3
+    },
+    {
+      "name": "Shubham Shetye",
+      "profileUrl": "../assets/Profile-Pic-4.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "35,000",
+      "startDate": "08 March 2020",
+      "notes": "HR",
+      "id": 4
+    },
+    {
+      "name": "Aniket Gavas",
+      "profileUrl": "../assets/Profile-Pic-4.png",
+      "gender": "Male",
+      "department": [
+        "Finance",
+        "Engineer"
+      ],
+      "salary": "30,000",
+      "startDate": "15 Aug 2017",
+      "notes": "uk,mhjjjjjjbgf v",
+      "id": 5
     }
   ]
 }
