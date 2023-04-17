@@ -5,9 +5,10 @@
       "profileUrl": "../assets/Profile-Pic-3.png",
       "gender": "Female",
       "department": [
+        "Finance",
         "Engineer"
       ],
-      "salary": "50,000",
+      "salary": "30,000",
       "startDate": "15 Aug 2021",
       "notes": "Computer Engineer",
       "id": 1
@@ -22,7 +23,7 @@
         "Others"
       ],
       "salary": "50,000",
-      "startDate": "14 Aug 2018",
+      "startDate": "14 Aug 2021",
       "notes": "Full Stack Dev",
       "id": 2
     },
@@ -60,10 +61,37 @@
         "Finance",
         "Engineer"
       ],
-      "salary": "30,000",
+      "salary": "25,000",
       "startDate": "15 Aug 2017",
       "notes": "uk,mhjjjjjjbgf v",
       "id": 5
+    },
+    {
+      "name": "Sai Naik",
+      "profileUrl": "../assets/Profile-Pic-4.png",
+      "gender": "Male",
+      "department": [
+        "Others"
+      ],
+      "salary": "50,000",
+      "startDate": "17 Jan 2023",
+      "notes": "ujtyhhgfygfyghjjhfygfy",
+      "id": 6
+    },
+    {
+      "name": "uykjhgthmndhnt",
+      "profileUrl": "../assets/Profile-Pic-3.png",
+      "gender": "Male",
+      "department": [
+        "HR",
+        "Sales",
+        "Finance",
+        "Engineer"
+      ],
+      "salary": "30,000",
+      "startDate": "13 April 2021",
+      "notes": "ktuhgh gdt",
+      "id": 7
     }
   ]
 }

@@ -56,10 +56,12 @@ const addEmp = () => {
       alert("Error sending data!");
     }
   });
+
+
   setTimeout(() => {
     console.log("work");
     window.location.href = "/pages/empTable.html";
-}, 1000);
+  }, 2000);
 
 }
 

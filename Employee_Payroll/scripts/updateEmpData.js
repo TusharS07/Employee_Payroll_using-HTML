@@ -32,10 +32,6 @@ function getEmpDataByIdAndSetIntoField() {
 
             $('#notes').val(data.notes);
 
-
-
-
-
         },
         error: function () {
             alert("Error sending data!");
@@ -101,6 +97,7 @@ function updateEmpData() {
         }
         
     });
+
     setTimeout(() => {
         console.log("work");
         window.location.href = "/pages/empTable.html";
